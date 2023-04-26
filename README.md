@@ -49,7 +49,7 @@ Dieses remote repository stellt für uns eine Art "single source of truth" dar.<
 
 ![picture of git workflow](/git-workflow.png)
 <p><br>
-Link to the original image [workflow-image](https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png).<br>
+Link to the original image (https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png).<br>
 
 ### Tipps zum Nutzen der Shell
 
@@ -69,5 +69,6 @@ git init<br>
 </p>
 
 Repository klonen<br>
-git clone *dateipfad*/*link*
-\(Der Link zu einem remote repository ist unter dem grünen "Code" Button zu finden.\)<br>
+git clone *dateipfad*/*link*<br>
+\(Der Link zu einem remote repository auf gitHub ist unter dem grünen "Code" Button zu finden.\)<br>
+
