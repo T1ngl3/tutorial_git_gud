@@ -1,9 +1,9 @@
 # tutorial_git_gud
 This repository holds the teaching material for my tutorial in statistical illusion
 
-## git facts
+## Was ist git?
 
-### Versionsverwaltungssystem
+### Versionsverwaltungssystem \(bzw. ein Repository\)
 
 speichert:
 - Inhalt aller Dateien eines Projekts
@@ -44,3 +44,7 @@ Viele nützliche Kommandozeilenbefehle
 <p>GitHub ist ein Unternehmen, dass repositories hostet.<br>
 Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.<br>
 Dieses remote repository stellt für uns eine Art "single source of truth" dar.</p>
+
+## Die wichtigsten git Kommandozeilenbefehle
+
+![picture of git workflow](/git-workflow.png)
