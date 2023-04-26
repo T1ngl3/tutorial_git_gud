@@ -43,6 +43,6 @@ Viele nützliche Kommandozeilenbefehle
 
 ####
 
-- GitHub ist ein Unternehmen, dass repositories hostet.
-- Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.
-- Dieses remote repository stellt für uns eine Art "single source of truth" dar.
+<p>GitHub ist ein Unternehmen, dass repositories hostet.<br>
+Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.<br>
+Dieses remote repository stellt für uns eine Art "single source of truth" dar.</p>
