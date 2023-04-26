@@ -29,6 +29,9 @@ Dateien:
 #### Staging Area/Index
 
 Zwischenschritt zwischen working copy und repository
+- ermöglicht bessere Kontrolle darüber was in die neue Version übernommen wird
 
 #### Hash Adressierung
+
+
 
