@@ -45,9 +45,28 @@ Viele nützliche Kommandozeilenbefehle
 Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.<br>
 Dieses remote repository stellt für uns eine Art "single source of truth" dar.</p>
 
-## Die wichtigsten git Kommandozeilenbefehle
+## einfache git Kommandozeilenbefehle
 
-![picture of git workflow](/git-workflow.png)
-Link to the original image [workflow-image](https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png).
+<p>![picture of git workflow](/git-workflow.png)<br>
+Link to the original image [workflow-image](https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png).<br>
 
-git help *command*
+### Tipps zum Nutzen der Shell
+
+Einfügen und Kopieren funktioniert mit Rechtsklick, nicht mit Strg + V.<br>
+Mit den Pfeiltasten oben und unten können vorherig genutzte Befehle abgerufen werden.<br>
+
+### Kommandozeilenbefehle
+
+Erklärung eines Befehls:<br>
+git help *command*<br>
+
+Aktuellen Dateipfad ändern:<br>
+cd *dateipfad*
+
+Neues Repository erschaffen:<br>
+git init<br>
+</p>
+
+Repository klonen<br>
+git clone *dateipfad*/*link*
+/(Der Link zu einem remote repository ist unter dem grünen "Code" Button zu finden./)<br>
