@@ -75,8 +75,14 @@ git clone *dateipfad*/*link*<br>
 Änderungen in die Staging Area bringen:<br>
 git add *file*/.<br>
 
-Dateien von der Staging Area entfernen:<br>
-git rm *file* --cached
+Änderungen von der Staging Area entfernen:<br>
+git reset<br>
+
+Änderungen von der Staging Area in das lokale repository übernehmen:<br>
+git commit -m "*description of the change*"<br>
+
+
+git checkout *file*<br>
 
 
 </p>
