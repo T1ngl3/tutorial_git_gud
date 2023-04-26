@@ -29,7 +29,7 @@ Dateien:
 #### Staging Area/Index
 
 Zwischenschritt zwischen working copy und repository
-- ermöglicht bessere Kontrolle darüber was in die neue Version übernommen wird
+ermöglicht bessere Kontrolle darüber was in die neue Version übernommen wird
 
 #### Hash Adressierung
 
@@ -41,6 +41,8 @@ Viele nützliche Kommandozeilenbefehle
 
 ### Was ist GitHub?
 
-GitHub ist ein Unternehmen, dass repositories hostet.
-Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.
-Dieses remote repository stellt für uns eine Art "single source of truth" dar.
+####
+
+- GitHub ist ein Unternehmen, dass repositories hostet.
+- Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.
+- Dieses remote repository stellt für uns eine Art "single source of truth" dar.
