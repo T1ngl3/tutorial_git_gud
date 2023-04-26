@@ -55,6 +55,7 @@ Link to the original image (https://phoenixnap.com/kb/wp-content/uploads/2021/09
 
 Einfügen und Kopieren funktioniert mit Rechtsklick, nicht mit Strg + V.<br>
 Mit den Pfeiltasten oben und unten können vorherig genutzte Befehle abgerufen werden.<br>
+Ein Punkt . bedeutet alles. <br>
 
 ### Kommandozeilenbefehle
 
@@ -66,9 +67,16 @@ cd *dateipfad*
 
 Neues Repository erschaffen:<br>
 git init<br>
-</p>
 
-Repository klonen<br>
+Repository klonen:<br>
 git clone *dateipfad*/*link*<br>
-\(Der Link zu einem remote repository auf gitHub ist unter dem grünen "Code" Button zu finden.\)<br>
+#### \(Der Link zu einem remote repository auf gitHub ist unter dem grünen "Code" Button zu finden.\)<br>
 
+Änderungen in die Staging Area bringen:<br>
+git add *file*/.<br>
+
+Dateien von der Staging Area entfernen:<br>
+git rm *file* --cached
+
+
+</p>
