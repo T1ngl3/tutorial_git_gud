@@ -33,5 +33,14 @@ Zwischenschritt zwischen working copy und repository
 
 #### Hash Adressierung
 
+Versionen werden mittels Hash-Adressierung gespeichert und referenziert
 
+#### Kommandozeilen Anwendung
 
+Viele nützliche Kommandozeilenbefehle
+
+### Was ist GitHub?
+
+GitHub ist ein Unternehmen, dass repositories hostet.
+Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.
+Dieses remote repository stellt für uns eine Art "single source of truth" dar.
