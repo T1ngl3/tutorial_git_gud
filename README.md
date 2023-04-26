@@ -48,3 +48,6 @@ Dieses remote repository stellt für uns eine Art "single source of truth" dar.<
 ## Die wichtigsten git Kommandozeilenbefehle
 
 ![picture of git workflow](/git-workflow.png)
+Link to the original image [workflow-image](https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png).
+
+git help *command*
