@@ -177,17 +177,17 @@ git rebase -i *branchname*<br>
 
 ## git config die mir geholfen haben
 
-![picture of gitconfig1](/git_config/git_config_1_von_3.png)
+![picture of gitconfig1](/git_config_pictures/git_config_1_von_3.png)
 <p>
 <br>
 </p>
 
-![picture of gitconfig2](/git_config/git_config_2_von_3.png)
+![picture of gitconfig2](/git_config_pictures/git_config_2_von_3.png)
 <p>
 <br>
 </p>
 
-![picture of gitconfig3](/git_config/git_config_3_von_3.png)
+![picture of gitconfig3](/git_config_pictures/git_config_3_von_3.png)
 <p>
 <br>
 Die configs sind aus der Vorlesung Software Engineering.</p>
