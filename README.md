@@ -111,7 +111,7 @@ git fetch --all<br>
 Neuen Branch erstellen oder zwischen branches wechseln:<br>
 git checkout *branchname*<br>
 Branch löschen:<br>
-git checkout -d *branchname*<br>
+git branch -d *branchname*<br>
 
 Neuesten commit eines anderen branches in den aktuellen commit mergen:<br>
 git merge *branchname*<br>
