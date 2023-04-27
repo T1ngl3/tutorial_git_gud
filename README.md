@@ -221,8 +221,8 @@ Die configs sind aus der Vorlesung Software Engineering.</p>
 
 ## Steckbrief
 
-Bild: ![picture of ...](/.png)
+Bild: ![picture of Dominic](/characteristics_form_pictures/Dominics_picture.jpg)
 <p>
-Name: <br>
-Alter: <br>
-Mein Lieblingstier: </p>
+Name: Dominic Braun<br>
+Alter: 20<br>
+Mein Lieblingstier: Axolotl</p>
