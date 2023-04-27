@@ -3,9 +3,9 @@ This repository holds the teaching material for my tutorial in statistical illus
 
 ## Was ist git?
 
-### Versionsverwaltungssystem \(bzw. ein Repository\)
+### Versionsverwaltungssystem
 
-speichert:
+speichert in so genannten repositories:
 - Inhalt aller Dateien eines Projekts
 - gesamte Änderungsgeschichte eines Projekts
 - Metadaten (Änderungszeitpunkt, Autor, Kommentare, Versionsnummer)
@@ -26,9 +26,9 @@ Dateien:
 - Diff wird bei Bedarf generiert
 
 ### Staging Area/Index
-
-Zwischenschritt zwischen working copy und repository
-ermöglicht bessere Kontrolle darüber was in die neue Version übernommen wird
+<p>
+Zwischenschritt zwischen working copy und repository<br>
+ermöglicht bessere Kontrolle darüber was in die neue Version übernommen wird.</p>
 
 ### Hash Adressierung
 
