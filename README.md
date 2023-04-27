@@ -42,16 +42,57 @@ Viele nützliche Kommandozeilenbefehle
 
 ###
 
-<p>GitHub ist ein Unternehmen, dass repositories hostet.<br>
+<p>
+GitHub ist ein Unternehmen, dass repositories hostet.<br>
 Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.<br>
 Dieses remote repository stellt für uns eine Art "single source of truth" dar.</p>
 
 ## Was ist ein Branch?
 <p>
 Branches sind pointer zu bestimmten commits.<br>
-Head ist ein pointer der zum aktuell betrachteten commit zeigt.</p>
+Branches erlauben uns parallel an features zu arbeiten, während die Hauptversion intakt bleibt.<br>
+Head ist ein pointer der zum aktuell betrachteten commit zeigt.<br>
+main ist der pointer zur "Hauptversion".</p>
+
+### Was ist ein Merge?
+<p>
+Bei einem merge werden mehrere commits zu einem neuen commit zusammengefasst.</p>
+
+#### Was ist ein Merge Konflikt?
+<p>
+Ein merge funktioniert im besten Fall automatisch, falls dies bspw. durch Änderungen in beiden commits in der gleichen Zeile nicht möglich sein sollte, müssen diese "Merge Konflikte" manuell gelöst werden.</p>
 
 ![picture of git branches](/git-branch.jpg)
+<p><br>
+Link to the original image (https://miro.medium.com/v2/resize:fit:1200/1*GLOzQT-XGHG9fPdzpqvz6w.jpeg)</p>
+
+## Was sind Pull Requests und Issues
+<p>
+Issues helfen uns zu organisieren was zu tun ist.<br>
+Pull Requests helfen uns dabei abzusichern, dass das was getan wurde sicher in die Hauptversion übernommen werden kann.<br>
+
+### Issue
+<p>
+Ein Issue kann manuell auf GitHub erstellt werden.<br>
+Es handelt sich um eine präzise Beschreibung einer Aufgabenstellung für eine Änderung.<br>
+Wenn man ein Issue lösen möchte trägt man sich selbst als Assignee ein, damit das Issue klar vergeben ist.<br>
+In den meisten Fällen arbeitet man für die Bearbeitung auf einem neuen Branch</p>
+
+### Pull Request
+<p>
+Ein Pull Request kann ebenfalls auf GitHub erstellt werden, nachdem man einen commit auf einem anderen Branch als main gemacht hat.<br>
+In den body der PR gehört "resolves #nummerDesGelöstenIssues" und eine Beschreibung der Änderung.<br>
+Die Idee ist, dass andere die Abgabe nochmal überprüfen, bevor sie in die Hauptversion übernommen wird.<br>
+Man kann andere als Reviewer für seine Pull Request berufen.</p>
+
+#### Aufgaben als Reviewer
+
+<p>
+Den commit der Pull Request auf Korrektheit prüfen.<br>
+Falls ja, den commit mit main mergen.<br>
+Den merge commit überprüfen.<br>
+Sobald dieser funktioniert, committen und aufs remote repository pushen.<br>
+Falls nein, einen konstruktiven Kommentar schreiben und auf neue Version der Pull Request warten.</p>
 
 ## einfache git Kommandozeilenbefehle
 
@@ -88,6 +129,7 @@ git diff \[--staged\]<br>
 
 Aktuellen Dateipfad ändern:<br>
 cd *dateipfad*<br>
+\(Man sollte auf den Ordner des repositories verweisen wenn man in diesem arbeiten will.\)<br>
 
 Neues Repository erschaffen:<br>
 git init<br>
