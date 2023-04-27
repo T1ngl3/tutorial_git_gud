@@ -76,7 +76,7 @@ Pull Requests helfen uns dabei abzusichern, dass das was getan wurde sicher in d
 Ein Issue kann manuell auf GitHub erstellt werden.<br>
 Es handelt sich um eine präzise Beschreibung einer Aufgabenstellung für eine Änderung.<br>
 Wenn man ein Issue lösen möchte trägt man sich selbst als Assignee ein, damit das Issue klar vergeben ist.<br>
-In den meisten Fällen arbeitet man für die Bearbeitung auf einem neuen Branch</p>
+In den meisten Fällen arbeitet man für die Bearbeitung auf einem neuen Branch.</p>
 
 ### Pull Request
 <p>
@@ -89,10 +89,10 @@ Man kann andere als Reviewer für seine Pull Request berufen.</p>
 
 <p>
 Den commit der Pull Request auf Korrektheit prüfen.<br>
-Falls ja, den commit mit main mergen.<br>
-Den merge commit überprüfen.<br>
-Sobald dieser funktioniert, committen und aufs remote repository pushen.<br>
-Falls nein, einen konstruktiven Kommentar schreiben und auf neue Version der Pull Request warten.</p>
+Falls nein, einen konstruktiven Kommentar schreiben und auf neue Version der Pull Request warten.<br>
+Falls ja, die Korrektheit zurückmelden und danach je nach workflow selbst mit main mergen oder vom Ersteller der PR mergen lassen.<br>
+Die Person die merged ist dann für die Überprüfung der Korrektheit des merges und für das pushen von diesem ans remote repository zuständig.<br>
+</p>
 
 ## einfache git Kommandozeilenbefehle
 
@@ -171,6 +171,5 @@ git merge *branchname*<br>
 commits interaktiv umorganisieren:<br>
 git rebase -i *branchname*<br>
 \(Es werden meist neue commits generiert, rebase ist ein etwas fortgeschrittener Befehl\)<br>
-
-
 </p>
+
