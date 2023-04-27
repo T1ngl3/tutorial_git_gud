@@ -62,7 +62,7 @@ Bei einem merge werden mehrere commits zu einem neuen commit zusammengefasst.</p
 <p>
 Ein merge funktioniert im besten Fall automatisch, falls dies bspw. durch Änderungen in beiden commits in der gleichen Zeile nicht möglich sein sollte, müssen diese "Merge Konflikte" manuell gelöst werden.</p>
 
-![picture of git branches](/git-branch.jpg)
+![picture of git branches](/git_explanation_pictures/git-branch.jpg)
 <p><br>
 Link to the original image (https://miro.medium.com/v2/resize:fit:1200/1*GLOzQT-XGHG9fPdzpqvz6w.jpeg)</p>
 
@@ -96,7 +96,7 @@ Die Person die merged ist dann für die Überprüfung der Korrektheit des merges
 
 ## einfache git Kommandozeilenbefehle
 
-![picture of git workflow](/git-workflow.png)
+![picture of git workflow](/git_explanation_pictures/git-workflow.png)
 <p><br>
 Link to the original image (https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png).<br>
 
@@ -221,7 +221,7 @@ Die configs sind aus der Vorlesung Software Engineering.</p>
 
 ## Steckbrief
 
-Bild: ![picture of ...](/.png)
+Bild: ![picture of Dominic](/.png)
 <p>
 Name: <br>
 Alter: <br>
