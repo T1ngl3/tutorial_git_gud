@@ -221,7 +221,7 @@ Die configs sind aus der Vorlesung Software Engineering.</p>
 
 ## Steckbrief
 
-Bild: ![picture of Dominic](/.png)
+Bild: ![picture of ...](/.png)
 <p>
 Name: <br>
 Alter: <br>
