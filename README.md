@@ -16,6 +16,7 @@ Repositories:
 - verschiedene repositories befinden sich auf verschiedenen Computern
 - die Repositories können untereinander synchronisiert werden
 - die Arbeitskopie wird mit dem lokalen repository synchronisiert
+- enthalten commits, also Änderungen/Versionen
 
 ### Snapshot-basiertes Versionsverwaltungssystem
 
@@ -44,6 +45,12 @@ Viele nützliche Kommandozeilenbefehle
 <p>GitHub ist ein Unternehmen, dass repositories hostet.<br>
 Dies erlaubt uns ein remote repository aufzusetzen auf dass wir alle zugreifen.<br>
 Dieses remote repository stellt für uns eine Art "single source of truth" dar.</p>
+
+## Was ist ein Branch?
+<p>
+Branches sind pointer zu bestimmten commits.<br>
+Head ist</p>
+![picture of git branches](/git-branch.jpg)
 
 ## einfache git Kommandozeilenbefehle
 
@@ -110,13 +117,17 @@ git fetch --all<br>
 
 Neuen Branch erstellen oder zwischen branches wechseln:<br>
 git checkout *branchname*<br>
-Branch löschen:<br>
+lokalen Branch löschen:<br>
 git branch -d *branchname*<br>
+remote Branch löschen:<br>
+git push origin --delete *branchname*<br>
 
 Neuesten commit eines anderen branches in den aktuellen commit mergen:<br>
 git merge *branchname*<br>
 
-git rebase *branchname*<br>
+commits interaktiv umorganisieren:<br>
+git rebase -i *branchname*<br>
+\(Es werden meist neue commits generiert, rebase ist ein etwas fortgeschrittener Befehl\)<br>
 
 
 </p>
