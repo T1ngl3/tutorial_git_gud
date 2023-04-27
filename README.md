@@ -49,7 +49,8 @@ Dieses remote repository stellt für uns eine Art "single source of truth" dar.<
 ## Was ist ein Branch?
 <p>
 Branches sind pointer zu bestimmten commits.<br>
-Head ist</p>
+Head ist ein pointer der zum aktuell betrachteten commit zeigt.</p>
+
 ![picture of git branches](/git-branch.jpg)
 
 ## einfache git Kommandozeilenbefehle
