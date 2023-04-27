@@ -162,6 +162,8 @@ Neuen Branch erstellen oder zwischen branches wechseln:<br>
 git checkout *branchname*<br>
 lokalen Branch löschen:<br>
 git branch -d *branchname*<br>
+Auf neuen remote Branch committen:<br>
+git push --set-upstream origin *branchname*<br>
 remote Branch löschen:<br>
 git push origin --delete *branchname*<br>
 
@@ -173,3 +175,45 @@ git rebase -i *branchname*<br>
 \(Es werden meist neue commits generiert, rebase ist ein etwas fortgeschrittener Befehl\)<br>
 </p>
 
+# Hausaufgabe
+
+1. Schaut euch das Repository (https://github.com/fgoepp/tp23-statistical-illusions) zu unserem Teamprojekt an
+- gitShell: Ändert den Dateipfad zu einem Ort an dem ihr das lokale repository speichern wollt.
+- gitShell: Klont das Repository
+- DateiExplorer oder gitShell: Betrachtet die Dateien
+
+2. Schaut euch mein Repository an
+- Klont das repository
+- Betrachtet die Änderungsgeschichte, nutzt git status und fragt git nach einer Erklärung für einen command
+- Springt zu einem commit mittels git checkout *hash* den ihr in der Änderungsgeschichte gefunden habt
+- betrachtet von diesem commit aus mit git diff *hash* den Unterschied zum darauffolgenden commit
+- springt wieder zu main
+
+3. Füllt den Steckbrief am Ende dieses Dokuments aus
+- Weißt euch eurem Issue zu
+- Füllt den Steckbrief aus
+- Erschafft einen neuen Branch mit passendem Namen
+- Stellt sicher, dass ihr auf diesen Branch gewechselt habt
+- Betrachtet die aktuelle Situation mit git status
+- Fügt eure Änderungen der Staging Area hinzu
+- Nutzt erneut git status
+- committed die Änderungen, wenn ihr zufrieden seid, in euer lokales repository, ansonsten nutzt git reset
+- Verwendet git push --set-upstream origin *branchname* um den Branch im remote repository zu erschaffen und auf diesen zu pushen
+- eröffnet eine Pull Request zu eurem commit
+- beauftragt ein Teammitglied mit der Review eurer PR
+
+4. Euren Steckbrief in main mergen
+- Holt euch mit git fetch --all eine aktuelle Version des repositories
+- Stellt sicher dass ihr auf dem main branch seid
+- merged euren branch in main
+- löst mögliche Konflikte auf
+- fügt die Datei der Staging Area hinzu, committed, pushed auf das remote repository
+- Die PR und das Issue sollten sich automatisch erledigt haben
+
+## Steckbrief
+
+Bild: ![picture of ...](/.png)
+<p>
+Name: <br>
+Alter: <br>
+Mein Lieblingstier: </p>
