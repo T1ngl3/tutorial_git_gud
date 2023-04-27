@@ -1,11 +1,8 @@
-# tutorial_git_gud
-This repository holds the teaching material for my tutorial in statistical illusion
-
 ## Was ist git?
 
-### Versionsverwaltungssystem \(bzw. ein Repository\)
+### Versionsverwaltungssystem
 
-speichert:
+speichert in sogenannten repositories:
 - Inhalt aller Dateien eines Projekts
 - gesamte Änderungsgeschichte eines Projekts
 - Metadaten (Änderungszeitpunkt, Autor, Kommentare, Versionsnummer)
@@ -26,9 +23,9 @@ Dateien:
 - Diff wird bei Bedarf generiert
 
 ### Staging Area/Index
-
-Zwischenschritt zwischen working copy und repository
-ermöglicht bessere Kontrolle darüber was in die neue Version übernommen wird
+<p>
+Zwischenschritt zwischen working copy und repository<br>
+ermöglicht bessere Kontrolle darüber was in die neue Version übernommen wird</p>
 
 ### Hash Adressierung
 
@@ -62,10 +59,6 @@ Bei einem merge werden mehrere commits zu einem neuen commit zusammengefasst.</p
 <p>
 Ein merge funktioniert im besten Fall automatisch, falls dies bspw. durch Änderungen in beiden commits in der gleichen Zeile nicht möglich sein sollte, müssen diese "Merge Konflikte" manuell gelöst werden.</p>
 
-![picture of git branches](/git-branch.jpg)
-<p><br>
-Link to the original image (https://miro.medium.com/v2/resize:fit:1200/1*GLOzQT-XGHG9fPdzpqvz6w.jpeg)</p>
-
 ## Was sind Pull Requests und Issues
 <p>
 Issues helfen uns zu organisieren was zu tun ist.<br>
@@ -95,10 +88,6 @@ Die Person die merged ist dann für die Überprüfung der Korrektheit des merges
 </p>
 
 ## einfache git Kommandozeilenbefehle
-
-![picture of git workflow](/git-workflow.png)
-<p><br>
-Link to the original image (https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png).<br>
 
 ### Tipps zum Nutzen der Shell
 
