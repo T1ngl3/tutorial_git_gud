@@ -175,6 +175,15 @@ git rebase -i *branchname*<br>
 \(Es werden meist neue commits generiert, rebase ist ein etwas fortgeschrittener Befehl\)<br>
 </p>
 
+## git config die mir geholfen haben
+
+![picture of gitconfig1](/git_config/git_config_1_von_3.png)
+![picture of gitconfig2](/git_config/git_config_2_von_3.png)
+![picture of gitconfig3](/git_config/git_config_3_von_3.png)
+<p>
+<br>
+Die configs sind aus der Vorlesung Software Engineering.</p>
+
 # Hausaufgabe
 
 1. Schaut euch das Repository (https://github.com/fgoepp/tp23-statistical-illusions) zu unserem Teamprojekt an
