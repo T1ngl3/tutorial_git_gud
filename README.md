@@ -192,7 +192,7 @@ Die configs sind aus der Vorlesung Software Engineering.</p>
 - DateiExplorer oder gitShell: Betrachtet die Dateien
 
 2. Schaut euch mein Repository an
-- Klont das repository
+- Klont das repository an einen geeigneten Ort
 - Betrachtet die Änderungsgeschichte, nutzt git status und fragt git nach einer Erklärung für einen command
 - Springt zu einem commit mittels git checkout *hash* den ihr in der Änderungsgeschichte gefunden habt
 - betrachtet von diesem commit aus mit git diff *hash* den Unterschied zum darauffolgenden commit
