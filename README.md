@@ -191,7 +191,7 @@ Die configs sind aus der Vorlesung Software Engineering.</p>
 - gitShell: Klont das Repository
 - DateiExplorer oder gitShell: Betrachtet die Dateien
 
-2. Schaut euch mein Repository an
+2. Schaut euch mein Repository (https://github.com/T1ngl3/tutorial_git_gud) an
 - Klont das repository an einen geeigneten Ort
 - Betrachtet die Änderungsgeschichte, nutzt git status und fragt git nach einer Erklärung für einen command
 - Springt zu einem commit mittels git checkout *hash* den ihr in der Änderungsgeschichte gefunden habt
