@@ -229,8 +229,8 @@ Die configs sind aus der Vorlesung Software Engineering.</p>
 
 ## Steckbrief
 
-Bild: ![picture of ...](/.png)
+Bild: ![picture of my gf's cat](/git_explanation_pictures/Katze.jpeg)
 <p>
-Name: <br>
-Alter: <br>
-Mein Lieblingstier: </p>
+Name: Marek Ulm<br>
+Alter: 20 <br>
+Mein Lieblingstier: Katze </p>
