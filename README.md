@@ -234,3 +234,9 @@ Bild: ![picture of my gf's cat](/git_explanation_pictures/Katze.jpeg)
 Name: Marek Ulm<br>
 Alter: 20 <br>
 Mein Lieblingstier: Katze </p>
+
+Bild: ![picture of my gf's cat](/git_explanation_pictures/Katze.jpeg)
+<p>
+Name: Sebastian Fay<br>
+Alter: 19 <br>
+Mein Lieblingstier: Mareks Katze </p>
